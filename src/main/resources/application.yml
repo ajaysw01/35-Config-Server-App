@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: 25-Config-Server-App
+  cloud:
+    config:
+      server:
+        git:
+          uri: ''
+          clone-on-start: true
+
